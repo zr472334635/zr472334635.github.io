@@ -7,15 +7,15 @@
   
   <title>SpringBoot前后端交互 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="SpringBoot前后端交互不知适用于SpringBoot当使用application&#x2F;json来传递数据的时候，后端只能使用@RequestBody以及Java Bean 或者 map 的方式来接收数据 使用@RequestBody + Map  1234567@RequestMapping(value&#x3D;&quot;&#x2F;test&quot;, method &#x3D; Re">
+  <meta name="description" content="SpringBoot前后端交互不只适用于SpringBoot当使用application&#x2F;json来传递数据的时候，后端只能使用@RequestBody以及Java Bean 或者 map 的方式来接收数据 使用@RequestBody + Map  1234567@RequestMapping(value&#x3D;&quot;&#x2F;test&quot;, method &#x3D; Re">
 <meta property="og:type" content="article">
 <meta property="og:title" content="SpringBoot前后端交互">
 <meta property="og:url" content="http://yoursite.com/2020/07/14/SpringBoot%E5%89%8D%E5%90%8E%E7%AB%AF%E4%BA%A4%E4%BA%92/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="SpringBoot前后端交互不知适用于SpringBoot当使用application&#x2F;json来传递数据的时候，后端只能使用@RequestBody以及Java Bean 或者 map 的方式来接收数据 使用@RequestBody + Map  1234567@RequestMapping(value&#x3D;&quot;&#x2F;test&quot;, method &#x3D; Re">
+<meta property="og:description" content="SpringBoot前后端交互不只适用于SpringBoot当使用application&#x2F;json来传递数据的时候，后端只能使用@RequestBody以及Java Bean 或者 map 的方式来接收数据 使用@RequestBody + Map  1234567@RequestMapping(value&#x3D;&quot;&#x2F;test&quot;, method &#x3D; Re">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2020-07-14T15:23:52.000Z">
-<meta property="article:modified_time" content="2020-07-14T15:29:06.746Z">
+<meta property="article:modified_time" content="2020-07-14T15:36:33.407Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
   
@@ -88,7 +88,7 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h3 id="SpringBoot前后端交互"><a href="#SpringBoot前后端交互" class="headerlink" title="SpringBoot前后端交互"></a>SpringBoot前后端交互</h3><h5 id="不知适用于SpringBoot"><a href="#不知适用于SpringBoot" class="headerlink" title="不知适用于SpringBoot"></a>不知适用于SpringBoot</h5><h5 id="当使用application-json来传递数据的时候，后端只能使用-RequestBody以及Java-Bean-或者-map-的方式来接收数据"><a href="#当使用application-json来传递数据的时候，后端只能使用-RequestBody以及Java-Bean-或者-map-的方式来接收数据" class="headerlink" title="当使用application/json来传递数据的时候，后端只能使用@RequestBody以及Java Bean 或者 map 的方式来接收数据"></a>当使用application/json来传递数据的时候，后端只能使用@RequestBody以及Java Bean 或者 map 的方式来接收数据</h5><ol>
+        <h3 id="SpringBoot前后端交互"><a href="#SpringBoot前后端交互" class="headerlink" title="SpringBoot前后端交互"></a>SpringBoot前后端交互</h3><h5 id="不只适用于SpringBoot"><a href="#不只适用于SpringBoot" class="headerlink" title="不只适用于SpringBoot"></a>不只适用于SpringBoot</h5><h5 id="当使用application-json来传递数据的时候，后端只能使用-RequestBody以及Java-Bean-或者-map-的方式来接收数据"><a href="#当使用application-json来传递数据的时候，后端只能使用-RequestBody以及Java-Bean-或者-map-的方式来接收数据" class="headerlink" title="当使用application/json来传递数据的时候，后端只能使用@RequestBody以及Java Bean 或者 map 的方式来接收数据"></a>当使用application/json来传递数据的时候，后端只能使用@RequestBody以及Java Bean 或者 map 的方式来接收数据</h5><ol>
 <li><p>使用@RequestBody + Map</p>
  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">@RequestMapping(value&#x3D;&quot;&#x2F;test&quot;, method &#x3D; RequestMethod.POST)</span><br><span class="line">   public String Test(@RequestBody Map&lt;String,Object&gt; map) &#123;</span><br><span class="line">    </span><br><span class="line">       System.out.println(map);</span><br><span class="line">       return &quot;&quot;;</span><br><span class="line">    </span><br><span class="line">   &#125;</span><br></pre></td></tr></table></figure>
 </li>
@@ -100,7 +100,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/07/14/SpringBoot%E5%89%8D%E5%90%8E%E7%AB%AF%E4%BA%A4%E4%BA%92/" data-id="ckcm3io890000wwy883dd1f2m" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2020/07/14/SpringBoot%E5%89%8D%E5%90%8E%E7%AB%AF%E4%BA%A4%E4%BA%92/" data-id="ckcm3m5qc000001y84kkgfube" class="article-share-link">Share</a>
       
       
     </footer>
